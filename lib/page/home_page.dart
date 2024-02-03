@@ -177,7 +177,8 @@ class HomePage extends StatelessWidget {
                                           return SizedBox(
                                             height: 200,
                                             child: Column(
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
                                                 TextFormField(
                                                   cursorColor: Colors.white,
@@ -189,8 +190,7 @@ class HomePage extends StatelessWidget {
                                                       controller.updatedTitle,
                                                   decoration: InputDecoration(
                                                       filled: true,
-                                                      fillColor:
-                                                          Colors.white10,
+                                                      fillColor: Colors.white10,
                                                       contentPadding:
                                                           const EdgeInsets
                                                               .symmetric(
@@ -199,8 +199,7 @@ class HomePage extends StatelessWidget {
                                                           OutlineInputBorder(
                                                         borderRadius:
                                                             BorderRadius
-                                                                .circular(
-                                                                    10.0),
+                                                                .circular(10.0),
                                                         borderSide:
                                                             const BorderSide(
                                                           color: Colors.white,
@@ -211,8 +210,7 @@ class HomePage extends StatelessWidget {
                                                           OutlineInputBorder(
                                                         borderRadius:
                                                             BorderRadius
-                                                                .circular(
-                                                                    10.0),
+                                                                .circular(10.0),
                                                         borderSide:
                                                             const BorderSide(
                                                           color: Colors.white,
@@ -223,8 +221,7 @@ class HomePage extends StatelessWidget {
                                                           OutlineInputBorder(
                                                         borderRadius:
                                                             BorderRadius
-                                                                .circular(
-                                                                    10.0),
+                                                                .circular(10.0),
                                                         borderSide:
                                                             const BorderSide(
                                                           color: Colors.white,
@@ -235,15 +232,16 @@ class HomePage extends StatelessWidget {
                                                           "Tambahkan Catatan",
                                                       hintStyle:
                                                           const TextStyle(
-                                                              color: Colors
-                                                                  .grey)),
+                                                              color:
+                                                                  Colors.grey)),
                                                 ),
                                                 const SizedBox(height: 10),
                                                 Row(
                                                   children: [
                                                     Expanded(
                                                       child: TextFormField(
-                                                        cursorColor: Colors.white,
+                                                        cursorColor:
+                                                            Colors.white,
                                                         style: const TextStyle(
                                                             color: Colors.white,
                                                             fontWeight:
@@ -320,10 +318,16 @@ class HomePage extends StatelessWidget {
                                                         height: 48.5,
                                                         width: 48.5,
                                                         decoration: BoxDecoration(
-                                                          color: Colors.transparent,
-                                                          borderRadius: BorderRadius.circular(10),
-                                                          border: Border.all(color: Colors.white, width: 2)
-                                                        ),
+                                                            color: Colors
+                                                                .transparent,
+                                                            borderRadius:
+                                                                BorderRadius
+                                                                    .circular(
+                                                                        10),
+                                                            border: Border.all(
+                                                                color: Colors
+                                                                    .white,
+                                                                width: 2)),
                                                         child: const Icon(
                                                           Icons.done,
                                                           color: Colors.white,
@@ -350,6 +354,10 @@ class HomePage extends StatelessWidget {
             ],
           ),
         ),
+      ),
+      floatingActionButton: ElevatedButton(
+        onPressed: () {},
+        child: Icon(Icons.abc),
       ),
     );
   }
